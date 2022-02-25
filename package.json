@@ -1,0 +1,11 @@
+{
+  "name": "playwright-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Naoto92X82V99/playwright-example.git",
+  "author": "naoto708 <naoto.kaneko@showcase-gig.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.19.2"
+  }
+}
