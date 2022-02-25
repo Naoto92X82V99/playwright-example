@@ -1,6 +1,6 @@
 import { test, expect } from "@playwright/test";
 
 test("example test", async ({ page }) => {
-  await page.goto("https://playwright.dev");
+  await page.goto("https://github.com/microsoft/playwright");
   expect(await page.screenshot()).toMatchSnapshot("landing.png");
 });
