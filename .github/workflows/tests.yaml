@@ -19,7 +19,7 @@ jobs:
       - uses: microsoft/playwright-github-action@v1
 
       - name: Install dependencies and run tests
-        run: npm install && npm test
+        run: yarn install && yarn test
 
       - uses: actions/upload-artifact@v2
         if: ${{ always() }}
