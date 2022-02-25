@@ -23,4 +23,4 @@ jobs:
         if: ${{ always() }}
         with:
           name: test-artifacts
-          path: test-results
+          path: test-results/
